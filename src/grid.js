@@ -8,3 +8,7 @@ function drawGrid(x,y) {
     $gameBoard.append($row)
   }
 }
+
+function $cell(x, y) {
+  return $(`#${y}`).find(`.${x}`);
+}
