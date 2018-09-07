@@ -5,6 +5,10 @@ function hoover(x, y) {
   $('#currentY').text(y);
 }
 
+function cleaning() {
+  $('.hoover.dirty').removeClass('dirty');
+}
+
 function up() {
   let gridHeight = $('#myTable').find('tr').length;
   let $currentX = $('#currentX');

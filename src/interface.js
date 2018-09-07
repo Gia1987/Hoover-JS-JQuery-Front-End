@@ -28,5 +28,6 @@ $(document).ready(function() {
     } else if (event.key === 'ArrowLeft') {
       left();
     }
+    cleaning()
   })
 });
