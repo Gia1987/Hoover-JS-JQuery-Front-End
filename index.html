@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Hoover</title>
+    <link rel= 'stylesheet' type='text/css' href="style.css">
   </head>
-  <script >
+  <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous">
@@ -12,5 +13,23 @@
   <body>
     <table id='myTable'></table>
 
+    <p id="currentX"></p>
+    <p id="currentY"></p>
+
+    <form id="settingsForm">
+      <input type="number" id="width" min="2">
+      <input type="number" id="height" min="2">
+      <input type="submit" value="Create grid!">
+    </form>
+    
+    <form id="settingHoover">
+      <input type="number" id="hooverX">
+      <input type="number" id="hooverY">
+      <input type="submit" value="Get Hoover">
+    </form>
+
+    <script src='./src/grid.js'></script>
+    <script src='./src/hoover.js'></script>
+    <script src='./src/interface.js'></script>
   </body>
 </html>
