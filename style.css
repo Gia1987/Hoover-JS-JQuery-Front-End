@@ -1,0 +1,25 @@
+td.dirty {
+  background-image: url('https://thumbs.dreamstime.com/t/slime-blot-isolated-white-background-green-vector-illustration-82581688.jpg');
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+td.hoover {
+  background-image: url('https://myrobotcenter.a.ssl.fastly.net/media/catalog/product/l/g/lg_vr6347_1.png');
+  box-sizing: border-box;
+  background-size: contain;
+}
+
+.hiddenCoordinates {
+  visibility: hidden;
+}
+
+td {
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+}
+table{
+
+  font-size: 40px;
+}
