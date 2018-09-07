@@ -12,6 +12,12 @@ $(document).ready(function() {
     $(this).hide();
   })
 
+  $('#settingDirty').submit(function(event){
+    event.preventDefault();
+    dirty($("#X").val(), $("#Y").val());
+    $(this)[0].reset();
+  })
+
   $(window).keydown(function(event) {
     if (event.key === 'ArrowUp') {
       up();
